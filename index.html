@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thoughts - A Minimal Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <section class="grid-bg">
+    <div class="grid-line-3"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="index.html" class="logo"></a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <button class="mobile-menu" aria-label="Toggle navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="4" x2="20" y1="12" y2="12"/>
+          <line x1="4" x2="20" y1="6" y2="6"/>
+          <line x1="4" x2="20" y1="18" y2="18"/>
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1 class="hero-title">Thoughts<span class="hero-accent">.</span></h1>
+      <p class="hero-subtitle">A minimal blog about design, technology, and life</p>
+      
+      <div class="hero-buttons">
+        <a href="blog.html" class="btn btn-primary">Read Blog</a>
+        <a href="about.html" class="btn btn-secondary">About Me</a>
+      </div>
+      
+      <img 
+        src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800" 
+        alt="Minimal workspace" 
+        class="hero-image"
+        onerror="this.style.display='none'"
+        loading="lazy"
+      >
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
